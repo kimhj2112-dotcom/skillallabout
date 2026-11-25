@@ -1,0 +1,18 @@
+{
+  "collected_by": "현진 (카톡 메모 2026-11-24, 사진 속 목록) — 제미나이 수집 형식 예시",
+  "collected_at": "2026-11-24",
+  "skills": [
+    {
+      "name": "pstack",
+      "author": "미확인",
+      "url": "",
+      "source": "커뮤니티",
+      "group": "플러그인 · 에이전트 도구 묶음",
+      "areas": ["code", "meta"],
+      "purpose": "에이전트 작업용 슬래시 명령 묶음: /swarm(병렬 워커), /interrogate(여러 모델로 diff 검증), /correct(반복 실수를 상위 수준에서 고치고 규칙-강제수단 표 작성), /teach(다이어그램으로 이해시키기), /tdd, /benchmark-checklist, /no-comments, /reflect, /setup-pstack 등",
+      "example": "/correct — 내가 에이전트한테 계속 지적하는 실수들 히스토리에서 찾아서 근본적으로 고쳐 줘",
+      "note": "사진에서 옮긴 목록이라 저장소 주소와 /figure-it-out 설명(사진 잘림)은 확인 필요",
+      "sources_found": ["카톡 메모 사진"]
+    }
+  ]
+}

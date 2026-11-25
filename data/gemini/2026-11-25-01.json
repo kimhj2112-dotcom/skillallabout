@@ -1,0 +1,477 @@
+{
+ "collected_by": "Gemini (검증: Claude)",
+ "collected_at": "2026-11-25",
+ "skills": [
+  {
+   "name": "copywriting",
+   "author": "coreyhaines31",
+   "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "writing"
+   ],
+   "purpose": "랜딩·제품·가격 페이지 전환용 마케팅 카피 작성",
+   "example": "신규 SaaS 랜딩 페이지 메인 헤드라인과 CTA 문구 써줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-23"
+  },
+  {
+   "name": "video",
+   "author": "coreyhaines31",
+   "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/video",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 영상",
+   "areas": [
+    "video",
+    "marketing",
+    "script"
+   ],
+   "purpose": "마케팅 홍보·설명 영상 기획, 프롬프트 및 스크립트 작성",
+   "example": "제품 소개용 60초 쇼츠 영상 기획안이랑 AI 영상 프롬프트 짜줘",
+   "note": "외부 영상·음성 도구 사용 시 별도 키나 비용 발생 가능 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-23"
+  },
+  {
+   "name": "marketing-ideas",
+   "author": "coreyhaines31",
+   "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing"
+   ],
+   "purpose": "제품 단계와 예산에 맞춘 139가지 마케팅 아이디어 제안",
+   "example": "초기 서비스 출시 직후 적은 예산으로 쓸 만한 마케팅 아이디어 추천해줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-23"
+  },
+  {
+   "name": "marketing-plan",
+   "author": "coreyhaines31",
+   "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-plan",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing"
+   ],
+   "purpose": "유입·활성화·리텐션 중심의 90일·12개월 마케팅 계획 수립",
+   "example": "우리 서비스 90일 마케팅 로드맵이랑 채널별 실행 계획 만들어줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-23"
+  },
+  {
+   "name": "content-strategy",
+   "author": "coreyhaines31",
+   "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "script",
+    "writing"
+   ],
+   "purpose": "고객 조사와 검색 수요 기반 콘텐츠 필러 및 주제 기획",
+   "example": "우리 타깃 고객이 검색할 만한 블로그·영상 콘텐츠 주제 클러스터 짜줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-23"
+  },
+  {
+   "name": "ogilvy-copywriting",
+   "author": "boraoztunc",
+   "url": "https://github.com/boraoztunc/skills/tree/main/ogilvy",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "writing"
+   ],
+   "purpose": "데이비드 오길비 광고 원칙 기반 헤드라인·카피 작성 및 검토",
+   "example": "오길비 스타일로 눈에 띄는 헤드라인이랑 제품 소개 카피 써줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-14"
+  },
+  {
+   "name": "copy-editing",
+   "author": "boraoztunc",
+   "url": "https://github.com/boraoztunc/skills/tree/main/copy-editing",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing",
+    "marketing"
+   ],
+   "purpose": "핵심 메시지와 말투를 유지하며 마케팅 카피를 단계별로 교정",
+   "example": "이 랜딩 페이지 문구 원래 뜻은 살리면서 더 명확하게 다듬어줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-14"
+  },
+  {
+   "name": "seo",
+   "author": "AgriciDaniel",
+   "url": "https://github.com/AgriciDaniel/claude-seo/tree/main/skills/seo",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing"
+   ],
+   "purpose": "기술 SEO, 스키마, AI 검색 노출(GEO) 종합 점검 및 개선안 도출",
+   "example": "우리 웹사이트 SEO랑 AI 검색 노출 상태 점검하고 우선순위 알려줘",
+   "note": "Google API 연동 시 별도 설정 가능 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-15"
+  },
+  {
+   "name": "seo-content",
+   "author": "AgriciDaniel",
+   "url": "https://github.com/AgriciDaniel/claude-seo/tree/main/skills/seo-content",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "writing"
+   ],
+   "purpose": "검색 의도와 E-E-A-T 기준에 맞춘 SEO 콘텐츠 분석 및 작성 지원",
+   "example": "검색 상위 노출을 노리는 블로그 글 구조랑 본문 초안 잡아줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-15"
+  },
+  {
+   "name": "seo-local",
+   "author": "AgriciDaniel",
+   "url": "https://github.com/AgriciDaniel/claude-seo/tree/main/skills/seo-local",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing"
+   ],
+   "purpose": "지역 기반 비즈니스 검색 노출 및 로컬 SEO 최적화 분석",
+   "example": "동네 매장 검색 노출 늘리려면 지역 SEO에서 뭘 손봐야 할까?",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-15"
+  },
+  {
+   "name": "seo-schema",
+   "author": "AgriciDaniel",
+   "url": "https://github.com/AgriciDaniel/claude-seo/tree/main/skills/seo-schema",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing"
+   ],
+   "purpose": "검색 리치 결과용 Schema.org 구조화 데이터 점검 및 생성",
+   "example": "이 페이지에 FAQ랑 제품 스키마 마크업 넣어 줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-15"
+  },
+  {
+   "name": "ad-copy",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/ad-copy",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "script"
+   ],
+   "purpose": "메타(페이스북·인스타) 광고 문구, 헤드라인, UGC 대본 작성",
+   "example": "인스타그램 광고용 본문 문구랑 30초 UGC 영상 대본 몇 가지 써줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "landing-page-copy",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/landing-page-copy",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "writing"
+   ],
+   "purpose": "광고 유입 전환을 돕는 랜딩·사전 안내 페이지 카피 작성",
+   "example": "광고 클릭해서 들어온 사람들이 이탈하지 않게 랜딩 페이지 문구 써줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "angle-finder",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/angle-finder",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "script"
+   ],
+   "purpose": "고객 표현과 리서치 기반 광고 소구점·훅 아이디어 발굴",
+   "example": "우리 제품 광고할 때 사람들이 멈춰 설 만한 훅이랑 소구점 뽑아줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "direct-response-copy",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/direct-response-copy",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "writing",
+    "script"
+   ],
+   "purpose": "세일즈 페이지·VSL·이메일 등 전환 중심 설득 카피 작성",
+   "example": "신제품 판매 페이지랑 세일즈 영상 대본 설득력 있게 써줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "static-ad",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/static-ad",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing"
+   ],
+   "purpose": "훅 기반 메타 이미지 광고 카피·이미지 브리프 및 베리에이션 구성",
+   "example": "배너 광고 문구랑 같이 쓸 이미지 시안이랑 테스트용 변형안 만들어줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "copychief",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/copychief",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing",
+    "marketing"
+   ],
+   "purpose": "크리에이티브 디렉터 관점의 세일즈 카피 줄 단위 검토 및 수정안 제시",
+   "example": "내가 쓴 홍보 문구 냉정하게 훑어보고 약한 부분 고쳐줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "funnel-teardown",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/funnel-teardown",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing",
+    "script"
+   ],
+   "purpose": "경쟁 퍼널·광고 영상 장면 구조 분석 및 자사 오퍼용 카피 모델링",
+   "example": "잘 나가는 경쟁사 랜딩 페이지랑 광고 흐름 뜯어보고 우리 버전 잡아줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "compliance-checker",
+   "author": "robpalmer99",
+   "url": "https://github.com/robpalmer99/claude-code-copywriting-skills/tree/main/compliance-checker",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 마케팅",
+   "areas": [
+    "marketing"
+   ],
+   "purpose": "메타·구글·틱톡·유튜브 광고 정책 위반 및 리스크 사전 점검",
+   "example": "이 광고 문구랑 랜딩 페이지 올리기 전에 광고 정책 걸릴 만한 표현 봐줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-10"
+  },
+  {
+   "name": "yt-script",
+   "author": "Jakeschincariol",
+   "url": "https://github.com/Jakeschincariol/youtube-agent-skill/tree/main/skills/yt-script",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 대본·기획",
+   "areas": [
+    "script",
+    "video"
+   ],
+   "purpose": "시청 유지율을 높이는 유튜브 영상 대본 작성 및 훅 점수화",
+   "example": "초반 이탈 줄이는 8분짜리 유튜브 정보 영상 대본 써줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-09-16"
+  },
+  {
+   "name": "youtube-shorts-factory",
+   "author": "ninestonelee",
+   "url": "https://github.com/ninestonelee/youtube-shorts-factory",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 영상",
+   "areas": [
+    "video",
+    "script"
+   ],
+   "purpose": "유튜브 쇼츠 레퍼런스 분석, 30% 이상 각색 스토리보드 및 영상 제작",
+   "example": "이 쇼츠 영상 구조 분석해서 30% 이상 새로 각색한 쇼츠 기획안 만들어줘",
+   "note": "외부 영상 파이프라인·이미지/영상 생성 도구 연동 시 비용 발생 가능 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-03-18"
+  },
+  {
+   "name": "youtube-skills",
+   "author": "sergebulaev",
+   "url": "https://github.com/sergebulaev/youtube-skills",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 대본·기획",
+   "areas": [
+    "script",
+    "marketing",
+    "video"
+   ],
+   "purpose": "유튜브·쇼츠 도입부 훅·제목·설명문 작성 및 AI 상투 표현 제거",
+   "example": "쇼츠 첫 3초 훅이랑 클릭률 높일 영상 제목 5개 뽑아줘",
+   "note": "Publora 예약 발행 연동 시 계정 및 API 키 필요 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-18"
+  },
+  {
+   "name": "video-subtitle-pro",
+   "author": "YanlongLai",
+   "url": "https://github.com/YanlongLai/video-subtitle-skill",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 영상",
+   "areas": [
+    "video"
+   ],
+   "purpose": "쇼츠·릴스·틱톡용 애니메이션 자막 및 텍스트 오버레이 생성·합성",
+   "example": "이 세로 영상에 숏폼 스타일 애니메이션 자막 넣어서 뽑아줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-03-24"
+  },
+  {
+   "name": "claude-youtube-short-editor",
+   "author": "crossplatformkorea",
+   "url": "https://github.com/crossplatformkorea/claude-youtube-short-editor",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 영상",
+   "areas": [
+    "video"
+   ],
+   "purpose": "이미지·영상·BGM을 조합해 9:16 유튜브 쇼츠 및 썸네일 자동 생성",
+   "example": "input 폴더에 넣은 사진이랑 음악으로 60초 세로 쇼츠 만들어줘",
+   "note": "별 적음; FFmpeg 필요 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-01-05"
+  },
+  {
+   "name": "video-use",
+   "author": "browser-use",
+   "url": "https://github.com/browser-use/video-use",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 영상",
+   "areas": [
+    "video"
+   ],
+   "purpose": "HyperFrames·Remotion·자막 스타일 조합으로 영상 제작 및 렌더 지원",
+   "example": "제품 시연 영상에 깔끔한 자막 스타일 붙여서 렌더링해줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-10-08"
+  },
+  {
+   "name": "remotion-video-director",
+   "author": "BayramAnnakov",
+   "url": "https://github.com/BayramAnnakov/remotion-video-director",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 영상",
+   "areas": [
+    "video",
+    "script"
+   ],
+   "purpose": "Remotion 기반 영상 장면 구성 및 내레이션 대본 생성",
+   "example": "이 설명 내용으로 Remotion 영상 장면 구성이랑 내레이션 대본 써줘",
+   "note": "ElevenLabs 등 음성 도구 연동 시 키 필요 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-03-13"
+  },
+  {
+   "name": "ai-social-media-content",
+   "author": "inference-sh",
+   "url": "https://github.com/inference-sh/skills/tree/main/guides/social/ai-social-media-content",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 대본·기획",
+   "areas": [
+    "script",
+    "marketing",
+    "video"
+   ],
+   "purpose": "틱톡·인스타·유튜브용 숏폼 대본, 캡션, 썸네일·영상 제작 흐름 지원",
+   "example": "틱톡·릴스용 30초 훅 대본이랑 해시태그, 썸네일 아이디어 잡아줘",
+   "note": "외부 CLI 및 생성 모델 키 필요할 수 있음 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-21"
+  },
+  {
+   "name": "humanizer-ko",
+   "author": "IsaacEryn",
+   "url": "https://github.com/IsaacEryn/humanizer-ko",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing"
+   ],
+   "purpose": "한국어 글에서 이중 피동·번역투 등 AI 문체 패턴 탐지 및 자연스러운 윤문",
+   "example": "AI로 뽑은 이 한국어 초안에서 번역투랑 어색한 문장 자연스럽게 고쳐줘",
+   "note": "사실·수치 보존 원칙 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-23"
+  },
+  {
+   "name": "hangeul-deai",
+   "author": "calintzy",
+   "url": "https://github.com/calintzy/hangeul-deai",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing"
+   ],
+   "purpose": "사실·수치·고유명사를 보존하며 한국어 글의 AI 흔적과 말투 어색함 교정",
+   "example": "보고서 초안 숫자는 그대로 두고 AI 쓴 티 나는 문장만 사람 글처럼 다듬어줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-07-07"
+  },
+  {
+   "name": "im-not-ai",
+   "author": "epoko77-ai",
+   "url": "https://github.com/epoko77-ai/im-not-ai/tree/main/skills/humanize-korean",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing"
+   ],
+   "purpose": "한글 AI 글의 번역투·상투구·기계적 병렬을 줄여 자연스러운 글로 윤문",
+   "example": "이 한글 글에 AI 냄새 나는 표현 빼고 원래 뜻 유지해서 다듬어줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-11-23 · 저장소에 humanize · humanize-scan · humanize-redo 등 관련 스킬 여러 개"
+  },
+  {
+   "name": "ko-tech-blog-skill",
+   "author": "ExceptAnyone",
+   "url": "https://github.com/ExceptAnyone/ko-tech-blog-skill/tree/main/plugins/ko-tech-blog/skills/ko-tech-blog",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing"
+   ],
+   "purpose": "문제 해결 흐름에 맞춘 한국어 기술 블로그 글 구조화 및 작성",
+   "example": "오늘 해결한 버그 트러블슈팅 과정으로 한국어 기술 블로그 글 써줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-02-13"
+  },
+  {
+   "name": "korean-report-skills",
+   "author": "JangHyun-bin",
+   "url": "https://github.com/JangHyun-bin/korean-report-skills",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing"
+   ],
+   "purpose": "한국어 보고서·문서의 문체·근거 표기 다듬기 및 문서 레이아웃 구성",
+   "example": "이 업무 보고서 초안 근거 불명확한 표현 짚어주고 보고 문체로 다듬어줘",
+   "note": "HTML/PDF 렌더·형태소 검사 시 추가 패키지 필요 · Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-10-29 · 플러그인 안에 스킬 2개(korean-report-doc, korean-report-style)"
+  },
+  {
+   "name": "humanizer (korean-skills)",
+   "author": "DaleSeo",
+   "url": "https://github.com/DaleSeo/korean-skills/tree/main/skills/humanizer",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing"
+   ],
+   "purpose": "한국어 텍스트의 쉼표·어휘·문장 리듬 패턴 분석 및 자연스러운 윤문",
+   "example": "이 한국어 글 문장 흐름이랑 쉼표 과다한 부분 자연스럽게 고쳐줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-05-04"
+  },
+  {
+   "name": "renwei-writing",
+   "author": "orange2ai",
+   "url": "https://github.com/orange2ai/renwei-writing",
+   "source": "커뮤니티",
+   "group": "커뮤니티 · 작문",
+   "areas": [
+    "writing"
+   ],
+   "purpose": "글쓴이 고유의 목소리와 개성을 살리면서 문장을 다듬는 작문 스킬",
+   "example": "내 말투랑 느낌은 살리면서 블로그 글 군더더기만 정리해줘",
+   "note": "Claude가 2026-11-25 저장소에서 SKILL.md 확인 · 최근 커밋 2026-06-13"
+  }
+ ],
+ "rejected": [
+  {
+   "name": "youtube-transcript-skill",
+   "url": "https://github.com/TranscriptFetch/youtube-transcript-skill",
+   "reason": "기존 youtube-transcript와 기능 중복 (제미나이 판단)"
+  }
+ ]
+}

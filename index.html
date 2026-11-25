@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>skillallabout · 스킬 올어바웃</title>
+<meta name="description" content="코딩, 영상, 작문, 대본, 자료수집, 광고까지 — Claude 스킬을 작업별로 찾고, 쓰는 법과 설치법을 바로 복사하는 사이트">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5/400.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="#" aria-label="처음으로">
+      <span class="logo-mark">S</span>
+      <span><b>skill</b>allabout</span>
+    </a>
+    <nav class="tabs" role="tablist">
+      <button class="tab is-on" data-view="browse" role="tab">스킬 찾기</button>
+      <button class="tab" data-view="quiz" role="tab">추천 받기</button>
+      <button class="tab" data-view="recipes" role="tab">작업 레시피</button>
+      <button class="tab" data-view="new" role="tab">새로 들어온</button>
+      <button class="tab" data-view="guide" role="tab">설치 가이드</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 스킬 찾기 -->
+  <section id="view-browse" class="view is-on">
+    <div class="hero wrap">
+      <h1>지금 하려는 일, <em>어떤 스킬</em>로 할까요?</h1>
+      <p class="sub">Claude 스킬 <b id="stat-total">0</b>개를 작업별로 모았어요. 아래에서 하려는 일을 누르거나 검색하세요.</p>
+      <div class="quick-q">지금 어떤 작업을 하시나요?</div>
+      <div id="quick" class="quick"></div>
+      <label class="search">
+        <span class="search-ico" aria-hidden="true">⌕</span>
+        <input id="q" type="search" placeholder="유튜브 쇼츠 대본, 네이버 블로그, 랜딩 카피, 자막…" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <div id="tags" class="tags-row"></div>
+    </div>
+
+    <div class="wrap">
+      <div id="areas" class="areas" aria-label="작업 분야"></div>
+      <div class="filters">
+        <div class="seg" id="sources" aria-label="출처"></div>
+        <label class="toggle"><input type="checkbox" id="only-installed"> 설치된 것만</label>
+        <label class="toggle"><input type="checkbox" id="only-fav"> ★ 즐겨찾기</label>
+        <span class="count" id="count"></span>
+      </div>
+      <div id="suggest" class="suggest" hidden></div>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>찾는 스킬이 없어요. 다른 말로 검색하거나 분야 필터를 풀어 보세요.</p>
+    </div>
+  </section>
+
+  <!-- 추천 받기 -->
+  <section id="view-quiz" class="view">
+    <div class="hero wrap small">
+      <h1>질문 3개로 추천 받기</h1>
+      <p class="sub">답을 고르면 바로 아래에 맞는 스킬과 이어서 쓸 레시피가 나와요.</p>
+    </div>
+    <div class="wrap quiz">
+      <div class="qbox"><div class="qn">1</div><div><h3>어떤 결과물이 필요해요?</h3><div class="opts" data-q="out">
+        <button data-v="writing">글 · 카피</button><button data-v="script">대본 · 기획</button><button data-v="video">영상 · 이미지</button><button data-v="code">코드 · 자동화</button><button data-v="research">자료조사 · 정리</button><button data-v="docs">문서 · 엑셀 · PPT</button>
+      </div></div></div>
+      <div class="qbox"><div class="qn">2</div><div><h3>어디서 쓸 거예요?</h3><div class="opts" data-q="env">
+        <button data-v="app">claude.ai · Claude 앱</button><button data-v="code">Claude Code (VS Code · 터미널)</button><button data-v="ko">한국어 글 · 문서 위주</button>
+      </div></div></div>
+      <div class="qbox"><div class="qn">3</div><div><h3>API 키나 유료 서비스 연결도 괜찮아요?</h3><div class="opts" data-q="pay">
+        <button data-v="free">무료 · 가벼운 것만</button><button data-v="any">상관없어요</button>
+      </div></div></div>
+      <div id="quiz-result" class="quiz-result"></div>
+    </div>
+  </section>
+
+  <!-- 새로 들어온 -->
+  <section id="view-new" class="view">
+    <div class="hero wrap small">
+      <h1>새로 들어온 스킬</h1>
+      <p class="sub">제미나이가 모아 오고 Claude가 GitHub에서 확인한 스킬을 회차별로 모았어요.</p>
+    </div>
+    <div class="wrap"><div id="batches"></div></div>
+  </section>
+
+  <!-- 작업 레시피 -->
+  <section id="view-recipes" class="view">
+    <div class="hero wrap small">
+      <h1>작업 레시피</h1>
+      <p class="sub">한 가지 일을 끝내려면 스킬 여러 개를 순서대로 쓰면 편해요. 단계를 누르면 그 스킬 설명이 열립니다.</p>
+    </div>
+    <div class="wrap"><div id="recipes" class="recipes"></div></div>
+  </section>
+
+  <!-- 설치 가이드 -->
+  <section id="view-guide" class="view">
+    <div class="hero wrap small">
+      <h1>설치 가이드</h1>
+      <p class="sub">스킬은 <b>SKILL.md 파일이 든 폴더</b>예요. 어디서 쓰느냐에 따라 넣는 곳만 달라요.</p>
+    </div>
+    <div class="wrap guide">
+      <article class="g-card">
+        <h3>① claude.ai · Claude 앱</h3>
+        <ol>
+          <li>스킬 폴더를 ZIP으로 압축 (폴더 안에 SKILL.md가 바로 있어야 해요)</li>
+          <li>설정 → 기능(Capabilities) → 스킬 → <b>업로드</b></li>
+          <li>켜 두면 관련 요청을 할 때 Claude가 알아서 불러 씁니다</li>
+        </ol>
+        <p class="hint">Anthropic 공식 스킬(docx, pdf, pptx, xlsx 등)은 대부분 이미 들어 있어요.</p>
+      </article>
+      <article class="g-card">
+        <h3>② Claude Code · 플러그인 마켓</h3>
+        <ol>
+          <li>마켓 추가 → 플러그인 설치 → Claude Code 재시작</li>
+        </ol>
+        <div class="cmd"><code>/plugin marketplace add anthropics/skills</code><button class="copy" data-copy="/plugin marketplace add anthropics/skills">복사</button></div>
+        <div class="cmd"><code>/plugin</code><button class="copy" data-copy="/plugin">복사</button></div>
+        <p class="hint"><code>/plugin</code> 메뉴에서 마켓의 플러그인을 고를 수 있어요. 저장소가 마켓을 지원하는지는 README에서 확인하세요.</p>
+      </article>
+      <article class="g-card">
+        <h3>③ Claude Code · 폴더 직접 복사</h3>
+        <ol>
+          <li>저장소를 <code>git clone</code> 하거나 ZIP으로 받기</li>
+          <li>SKILL.md가 든 폴더를 아래 위치로 복사</li>
+        </ol>
+        <div class="cmd"><code>~/.claude/skills/스킬이름/SKILL.md</code></div>
+        <div class="cmd"><code>%USERPROFILE%\.claude\skills\스킬이름\SKILL.md</code></div>
+        <p class="hint">프로젝트에서만 쓰려면 프로젝트 안 <code>.claude/skills/</code> 에 넣으세요.</p>
+      </article>
+      <article class="g-card warn">
+        <h3>⚠ 설치 전에 꼭 확인</h3>
+        <ul>
+          <li>커뮤니티 스킬은 남이 만든 코드예요. SKILL.md와 scripts 폴더를 한 번 열어 보고 설치하세요.</li>
+          <li>API 키가 필요한 스킬(ElevenLabs, Gemini 등)은 키를 <code>.env</code>에 두고 절대 커밋하지 마세요.</li>
+          <li>설치 방법은 2026년 11월 기준이에요. 저장소 README가 항상 우선입니다.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot wrap">
+  <p>데이터: <a href="data/skills.json">data/skills.json</a> · 출처 시트 '대표 Claude 스킬 정리' + 제미나이 수집분 · 갱신은 <code>python tools/build_skills.py</code></p>
+</footer>
+
+<!-- 상세 패널 -->
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-bg" data-close></div>
+  <aside class="sheet-panel" role="dialog" aria-modal="true" aria-labelledby="d-name">
+    <button class="x" data-close aria-label="닫기">✕</button>
+    <div id="detail"></div>
+  </aside>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="data/skills.js"></script>
+<script src="data/recipes.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
